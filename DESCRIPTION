@@ -1,0 +1,32 @@
+Package: webrExtra
+Type: Package
+Title: Data and Functions For Web-based Analysis With R
+Version: 0.1.0
+Imports:
+   ggplot2,
+   purrr,
+   Epi,
+   pROC,
+   webrSub,
+   party,
+   survival,
+   shiny,
+   DT,
+   editData,
+   rrtable,
+   caret
+Suggests:
+   testthat,
+   knitr,
+   moonBook,
+   TH.data
+Authors@R: person("Keon-Woong", "Moon", email = "cardiomoon@gmail.com",
+    role = c("aut", "cre"))
+Description: Several analysis-related functions for the book entitled 
+    "Web-based Analysis with R" by Keon-Woong Moon.
+Depends: R(>= 2.10)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
